@@ -1,0 +1,118 @@
+#myHead {
+    background-color: darkorchid;
+    height: 80px;
+    
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+  }
+    
+  body {
+    background-image: url(../images/miguel.jpg);
+    background-attachment: fixed;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    text-align: center;
+  }
+    
+  #nombre,
+  #titulo {
+    text-align: center;
+    color: bisque;
+  }
+    #titulo:hover {
+      color: #00a4bd;
+    }
+    
+  a {
+    text-decoration: none;
+    color: black;
+  }
+    
+  #main_content {
+    border-radius: 2%;
+    width: 100%;
+    margin: 20px auto;
+    padding-top: 80px;
+  
+    color: bisque;
+    text-align: center;
+  }
+    
+  .fotoArtists {
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    border-color: darkorchid;
+    border-style: groove;
+  }
+    
+  .cajas1 {
+    text-align: center;
+  }
+  
+  .cajasSongs {
+    color: bisque;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    flex-direction: row;
+    border: 2px darkorchid solid;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border-radius: 20px;
+  }
+  
+  .links {
+    color: white;
+  }
+  
+  .cajasSpoti {
+    color: white;
+    background-color: #212121;
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    flex-direction: row;
+    border: 1px solid #212121;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+    .cajasSpoti:hover {
+      background-color: #323232;
+      border: 1px solid #323232;
+    }
+  
+  .fotoAlbum {
+    height: 300px;
+    width: 300px;
+    border-radius:  7px;
+  }
+  
+  .table0 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px darkorchid solid;
+    border-radius: 20px;
+    background-image: url(../images/miguel-jontel-pimentel-singer.webp);
+    width: 80%;
+    margin: 0px auto;
+  }
+    
+  .miguelStyle {
+    color: bisque;
+  }
+    .duaStyle:hover {
+      color: #00a4bd;
+    }
+    
+  #subtitulo {
+    color: black;
+    text-decoration: none;
+  }
+    
