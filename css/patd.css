@@ -88,6 +88,13 @@ a {
     border: 1px solid #323232;
   }
 
+#verMas {
+  color: #ffffff;
+}
+  #verMas:hover {
+  color: #00a4bd;
+}
+
 .fotoAlbum {
   height: 300px;
   width: 300px;
@@ -95,6 +102,7 @@ a {
 
 .table0 {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   border: 2px darkorchid solid;
   border-radius: 20px;
