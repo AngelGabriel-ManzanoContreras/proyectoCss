@@ -23,7 +23,6 @@ body {
   text-align: center;
   color: indianred;
 }
-
   #titulo:hover {
     color: #00a4bd;
   }
@@ -65,6 +64,33 @@ a {
   padding: 10px 10px;
   margin: 10px auto;
   border-radius: 20px;
+}
+
+.links {
+  color: white;
+}
+
+.cajasSpoti {
+  color: white;
+  background-color: #212121;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  flex-direction: row;
+  border: 1px solid #212121;
+  padding: 10px 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+  .cajasSpoti:hover {
+    background-color: #323232;
+    border: 1px solid #323232;
+  }
+
+.fotoAlbum {
+  height: 300px;
+  width: 300px;
+  border-radius: 7px;
 }
 
 .table0 {

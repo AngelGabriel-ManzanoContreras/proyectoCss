@@ -152,6 +152,13 @@ a {
     color: #00a4bd;
   }
 
+#miguelStyle {
+  color: bisque;
+}
+  #miguelStyle:hover {
+    color: #00a4bd;
+  }
+
 #subtitulo {
   color: black;
   text-decoration: none;
